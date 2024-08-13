@@ -152,6 +152,19 @@ glog
 gloga # with graph
 ```
 
+### git diff
+
+If you want to see your unstaged changes you can do so by hitting
+
+```bash
+git diff
+```
+
+```bash
+# zsh aliases
+gd
+```
+
 ## Branching
 
 Branching allows you to create separate lines of development in your project.
@@ -272,6 +285,11 @@ git remote add origin <remote_repository_URL>
 
 This command adds a remote repo URL with the name 'origin'.
 
+```bash
+# zsh aliases
+gra
+```
+
 ### git push
 
 ```bash
@@ -282,6 +300,12 @@ Pushes your commits to the remote repository on the branch <branch_name>.
 
 OR - If you want to push you changes on your local branch to the corresponding branch on the remote, just `git push`
 
+```bash
+# zsh aliases
+gp
+gpf! # force push
+```
+
 ### git pull
 
 ```bash
@@ -290,6 +314,13 @@ git pull origin <branch_name>
 
 Fetches and merges changes from the remote repository to your local branch.
 
+```bash
+# zsh aliases
+gl
+```
+
 ## Conclusion
 
 Congrats! You've learned the basics of using Git from the command line now. Keep practicing these commands and explore more advanced Git features as you become a real PRO with version control. 🎉
+
+You can find this file in [Github](https://github.com/dennishenle/git-cheatsheet.git).
