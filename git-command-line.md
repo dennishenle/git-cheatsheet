@@ -192,6 +192,7 @@ To delete a branch either use the args '-d' or '-D' to delete just a merged bran
 ```bash
 # zsh aliases
 gb
+gba # show all
 gbD # force delete
 ```
 
